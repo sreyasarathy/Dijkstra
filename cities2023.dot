@@ -1,0 +1,40 @@
+digraph G {
+    Seattle;
+    Austin;
+    Madison;
+    Chicago;
+    Dallas;
+    Nashville;
+    Milwaukee;
+    Denver;
+    Detroit;
+    Indianapolis;
+    Sacramento;
+    Miami;
+    Houston;
+    Atlanta;
+    Boston;
+
+    Seattle -> Austin [label="2"];
+    Seattle -> Madison [label="7"];
+    Seattle -> Chicago [label="9"];
+    Seattle -> Dallas [label="6"];
+    Seattle -> Nashville [label="8"];
+    Austin -> Madison [label="5"];
+    Austin -> Chicago [label="1"];
+    Austin -> Dallas [label="3"];
+    Austin -> Milwaukee [label="4"];
+    Madison -> Chicago [label="2"];
+    Madison -> Denver [label="8"];
+    Chicago -> Denver [label="3"];
+    Chicago -> Detroit [label="4"];
+    Dallas-> Milwaukee [label="1"];
+    Dallas -> Denver [label="7"];
+    Nashville -> Milwaukee [label="3"];
+    Milwaukee -> Houston [label="6"];
+    Sacramento -> Houston [label="7"];
+    Indianapolis -> Chicago [label="5"];
+    Miami -> Atlanta [label="9"];
+    Atlanta -> Houston [label="10"];
+    Denver -> Boston [label="5"];
+}
